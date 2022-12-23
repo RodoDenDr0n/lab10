@@ -1,7 +1,5 @@
 package adapter.task2;
 
-import java.time.LocalDate;
-
 public class TwitterClientWrapper implements Client {
     public TwitterUser user;
 
@@ -20,7 +18,7 @@ public class TwitterClientWrapper implements Client {
     }
 
     @Override
-    public LocalDate getLastActiveTime() {
+    public String getLastActiveTime() {
         return user.getLastActiveTime();
     }
 }

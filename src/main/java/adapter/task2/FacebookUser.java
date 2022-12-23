@@ -6,7 +6,7 @@ import lombok.Getter;
 import java.time.LocalDate;
 
 enum Country {
-    Ukraine, USA, Poland;
+    Ukraine, USA, Poland
 }
 
 @Getter
